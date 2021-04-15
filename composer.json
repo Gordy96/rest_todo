@@ -51,11 +51,7 @@
     "autoload-dev": {
         "psr-4": {
             "App\\Tests\\": "tests/"
-        },
-        "classmap": [
-            "tests/",
-            "bin/.phpunit/phpunit-8.5-0/src"
-        ]
+        }
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
